@@ -4,7 +4,7 @@ This code is a overhaul of this of the code http://www.arcade-cabinets.com/patre
 
 It is now coded in python 3 and support multiprocessing.
 
-This code is a way to find text with unknown encodings (but with a latin alphabet where characters ABCDEFGHIKLMNOPQRSTUVWXYZ are followig each others).
+	 (but with a latin alphabet where characters ABCDEFGHIKLMNOPQRSTUVWXYZ are followig each others).
 This script cannot find text directly written in pictures.
 
 # Usage (python 3)
@@ -13,7 +13,7 @@ This script cannot find text directly written in pictures.
 
 (Game - Frogger - Search the location of the "RANKING" string )
 
-```findStringV2.py "ranking" frsm3.7```
+```python findStringV2.py "ranking" frsm3.7```
 	Match in frsm3.7 at offset 0xeeb
 
 ## 2 - Wario Land 4
@@ -27,6 +27,6 @@ If the first letter is an uppercase letter it is recommended to drop it.
 
 In some case there is an extra byte, the option -s is here to skip it.
 
-```findStringV2.py -s 2 "producer" Wario\ Land\ 4\ \(UE\).gba```
+```python findStringV2.py -s 2 "producer" Wario\ Land\ 4\ \(UE\).gba```
 	Match in Wario Land 4 (UE).gba at offset 0x78a12c
 	Match in Wario Land 4 (UE).gba at offset 0x78a622
