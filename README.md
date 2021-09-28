@@ -4,7 +4,7 @@ This code is a overhaul of this of the code http://www.arcade-cabinets.com/patre
 
 It is now coded in python 3 and support multiprocessing.
 
-	 (but with a latin alphabet where characters ABCDEFGHIKLMNOPQRSTUVWXYZ are followig each others).
+This code is a way to find text with unknown encodings (but with a latin alphabet where characters ABCDEFGHIKLMNOPQRSTUVWXYZ are followig each others).
 This script cannot find text directly written in pictures.
 
 # Usage (python 3)
